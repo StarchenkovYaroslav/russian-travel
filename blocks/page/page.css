@@ -1,0 +1,10 @@
+.page {
+  background-color: #2A2C2F;
+  color: #fff;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  padding: 28px 0 24px;
+}
+
+* {
+  outline: 1px solid red;
+}
