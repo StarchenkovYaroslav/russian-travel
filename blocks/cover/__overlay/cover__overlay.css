@@ -1,0 +1,10 @@
+.cover__overlay {
+  background-color: rgba(42, 44, 47, .3);
+  padding: calc((100% * 0.625 - 152px - 32px - 63px) / 2) 0;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.cover__wrap:hover .cover__overlay {
+  background-color: rgba(42, 44, 47, .8);
+}
