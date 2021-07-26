@@ -6,3 +6,9 @@
   padding: 0;
   position: relative;
 }
+
+@media (max-width: 425px) {
+  .header__lang-list {
+    bottom: 8px;
+  }
+}
