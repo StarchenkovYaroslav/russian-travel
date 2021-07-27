@@ -1,6 +1,24 @@
 .cover__overlay {
   background-color: rgba(42, 44, 47, .3);
-  padding: calc((100% * 0.625 - 152px - 32px - 63px) / 2) 0;
+  padding: 245px 0;
   transition: background-color 0.3s;
   width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .cover__overlay {
+    padding: 195px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__overlay {
+    padding: 115px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__overlay {
+    padding: 33px 0;
+  }
 }
