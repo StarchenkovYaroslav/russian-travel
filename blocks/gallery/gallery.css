@@ -1,8 +1,33 @@
 .gallery {
   display: grid;
-  gap: 14px;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   max-width: 1184px;
-  padding-top: 92px;
-  width: 92.5%;
+  padding: 92px 0 0;
+}
+
+@media (max-width: 1280px) {
+  .gallery {
+    padding: 92px 48px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .gallery {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    gap: 16px;
+    padding: 88px 24px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .gallery {
+    gap: 12px;
+    padding: 64px 16px 0;
+  }
 }
