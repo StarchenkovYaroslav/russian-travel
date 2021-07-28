@@ -1,5 +1,5 @@
 .footer {
-  align-items: center;
+  align-items: flex-end;
   display: flex;
   justify-content: space-between;
   max-width: 1184px;
