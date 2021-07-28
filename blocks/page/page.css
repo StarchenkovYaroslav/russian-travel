@@ -5,6 +5,12 @@
   padding: 28px 0 24px;
 }
 
+@media (max-width: 425px) {
+  .page {
+    padding: 16px 0 24px;
+  }
+}
+
 * {
   outline: 1px solid red;
 }
