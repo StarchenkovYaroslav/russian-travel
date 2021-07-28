@@ -1,0 +1,8 @@
+.link_type_text {
+  opacity: 1;
+  transition: opacity .2s;
+}
+
+.link_type_text:hover {
+  opacity: .8;
+}
