@@ -20,15 +20,10 @@
   }
 }
 
-@media (max-width: 536px) {
+@media (max-width: 425px) {
   .place__title {
     font-size: 32px;
     line-height: 1.09;
-  }
-}
-
-@media (max-width: 425px) {
-  .place__title {
     padding: 0 16px;
   }
 }
