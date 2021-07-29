@@ -1,13 +1,26 @@
 .cover__link {
-  background-color: rgba(42, 44, 47, .3);
+  background: url(../../../images/cover/cover-trains.jpg) center center / cover no-repeat;
+  color: #fff;
   display: block;
   padding: 245px 0;
+  position: relative;
   text-decoration: none;
-  transition: background-color 0.3s;
-  width: 100%;
+  z-index: 0;
 }
 
-.cover__link:hover {
+.cover__link::before {
+  background-color: rgba(42, 44, 47, .3);
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: background-color 0.2s;
+  width: 100%;
+  z-index: -1;
+}
+
+.cover__link:hover::before {
   background-color: rgba(42, 44, 47, .8);
 }
 

@@ -3,6 +3,13 @@
   font-weight: normal;
   line-height: 1.63;
   margin: 0 0 33px;
+  max-width: 690px;
+}
+
+@media (max-width: 768px) {
+  .intro__description {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 425px) {

@@ -1,3 +1,10 @@
 .intro__objects-amount-list {
   margin: 0;
+  max-width: 690px;
+}
+
+@media (max-width: 768px) {
+  .intro__objects-amount-list {
+    max-width: 100%;
+  }
 }
