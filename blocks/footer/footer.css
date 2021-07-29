@@ -14,26 +14,16 @@
 
 @media (max-width: 768px) {
   .footer {
-    padding: 88px 24px 0;
-  }
-}
-
-@media (max-width: 725px) {
-  .footer {
     align-items: center;
     flex-direction: column;
-  }
-}
-
-@media (max-width: 480px) {
-  .footer {
-    align-items: flex-start;
-    justify-content: start;
+    padding: 88px 24px 0;
   }
 }
 
 @media (max-width: 425px) {
   .footer {
+    align-items: flex-start;
+    justify-content: start;
     padding: 64px 16px 0;
   }
 }

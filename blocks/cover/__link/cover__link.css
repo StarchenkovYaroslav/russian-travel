@@ -1,8 +1,30 @@
 .cover__link {
+  background-color: rgba(42, 44, 47, .3);
   display: block;
+  padding: 245px 0;
   text-decoration: none;
+  transition: background-color 0.3s;
+  width: 100%;
 }
 
-.cover__link:hover .cover__overlay {
+.cover__link:hover {
   background-color: rgba(42, 44, 47, .8);
+}
+
+@media (max-width: 1024px) {
+  .cover__link {
+    padding: 195px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__link {
+    padding: 115px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__link {
+    padding: 33px 0;
+  }
 }
