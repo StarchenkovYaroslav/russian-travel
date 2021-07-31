@@ -24,19 +24,19 @@
   background-color: rgba(42, 44, 47, .8);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
   .cover__link {
     padding: 195px 0;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .cover__link {
     padding: 115px 0;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .cover__link {
     padding: 33px 0;
   }
