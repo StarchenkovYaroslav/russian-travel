@@ -6,13 +6,13 @@
   max-width: 690px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .intro__description {
     max-width: 100%;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .intro__description {
     margin: 0 0 34px;
   }
