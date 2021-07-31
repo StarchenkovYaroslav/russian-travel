@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-@media (max-width: 510px) {
+@media (max-width: 767px) {
   .footer__links-list {
     flex-direction: column;
   }

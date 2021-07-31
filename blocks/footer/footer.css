@@ -6,23 +6,22 @@
   padding: 92px 0 0;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1279px) {
   .footer {
     padding: 92px 48px 0;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .footer {
-    align-items: center;
-    flex-direction: column;
     padding: 88px 24px 0;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .footer {
     align-items: flex-start;
+    flex-direction: column;
     justify-content: start;
     padding: 64px 16px 0;
   }
