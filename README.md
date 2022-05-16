@@ -8,3 +8,7 @@
 ## Ссылка на сайт
 
 https://starchenkovyaroslav.github.io/russian-travel/index.html
+
+## Статус проекта
+
+Завершен
